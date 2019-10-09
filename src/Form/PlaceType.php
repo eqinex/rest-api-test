@@ -26,8 +26,6 @@ class PlaceType extends AbstractType
         $builder
             ->add('name')
             ->add('address')
-            ->add('createdAt', new \DateTime())
-            ->add('updatedAt', new \DateTime())
             ->add('save', SubmitType::class)
         ;
     }
