@@ -52,8 +52,8 @@
 
 **4**.Для удаление записи DELETE:
 
-`api/places/{placeId}/delete`
+`/api/places/{placeId}/delete`
 
 **5**.Обновление записи PUT (В теле указать id):
 
-`api/place/update`
+`/api/place/update`
